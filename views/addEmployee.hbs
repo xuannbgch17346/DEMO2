@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee</title>
+</head>
+<body>
+    <h1>Employee</h1>
+    <form action="/addEmployee" method="post">
+        Name <input type="text" name="txtName">
+        <span style="color: red;">{{nameError}}</span>  
+        <br>
+        Gender 
+        <select name="txtgender"> 
+            <option value="Man">Man</option>
+            <option value="Women">Women</option>
+            <option value="3rd Sex">3rd Sex</option>
+        </select>
+        <br>
+        Images
+        <input type="text" name="txtpicture" id="1">
+        <img src="../USER/Desktop/images/greenwich.png" width="300px" height="400px">
+    </form>
+    
+</body>
+</html>
